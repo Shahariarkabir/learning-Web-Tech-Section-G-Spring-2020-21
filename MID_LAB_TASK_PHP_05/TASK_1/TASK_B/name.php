@@ -2,7 +2,7 @@
 
 	if(isset($_POST['submit'])){
 
-		$name 		=  $_POST['myname'];
+		$name 		=  $_POST['index'];
 
 		if($name == ""){
 			echo "Null submission...";
